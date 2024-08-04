@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Campaign</title>
+    <link rel="stylesheet" href="Email.css">
+</head>
+<body>
+    <header>
+        <h1>LG Campaign</h1>
+        <h2>Emails</h2>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <label for="subjectLine">Subject Line:</label>
+            <input type="text" id="subjectLine" placeholder="Enter subject line">
+
+            <label for="preheader">Preheader:</label>
+            <input type="text" id="preheader" placeholder="Enter preheader">
+
+            <label for="headerImage">Header Image:</label>
+            <input type="file" id="headerImage" accept="image/*">
+            <img id="headerImagePreview" src="#" alt="Header Image Preview" style="display:none;">
+
+            <label for="landingPageUrl">Landing Page URLs:</label>
+            <input type="text" id="landingPageUrl" placeholder="Enter landing page URL">
+
+            <button id="sendData">Send Data</button>
+        </div>
+    </div>
+
+    <script src="Email.js"></script>
+</body>
+</html>
